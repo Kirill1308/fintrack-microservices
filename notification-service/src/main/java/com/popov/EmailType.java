@@ -1,0 +1,22 @@
+package com.popov;
+
+public enum EmailType {
+    // Account-related emails
+    REGISTRATION,
+    PASSWORD_RESET_INSTRUCTIONS,
+    PASSWORD_RESET_CONFIRMATION,
+
+    // Subscription-related emails
+    SUBSCRIPTION_REMINDER,
+    SUBSCRIPTION_RENEWAL_SUCCESS,
+    SUBSCRIPTION_RENEWAL_FAILED,
+    SUBSCRIPTION_UPGRADE_CONFIRM,
+    SUBSCRIPTION_TIER_DEGRADATION,
+    SUBSCRIPTION_CANCEL_CONFIRMATION,
+
+    // Announcement emails
+    NEW_FEATURE_ANNOUNCEMENT,
+
+    // Collaboration-related emails
+    COLLABORATOR_INVITATION,
+}

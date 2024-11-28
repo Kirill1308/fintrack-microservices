@@ -1,0 +1,15 @@
+server:
+  port: 8888
+
+spring:
+  application:
+    name: config-service
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/Kirill1308/fintrack-config.git
+          search-paths: '{application}'
+          clone-on-start: true
+          default-label: main
+          force-pull: true
